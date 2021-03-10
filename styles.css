@@ -7,9 +7,10 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   color: #ccd6f6;
   background: #0a1a2f;
+  font-size: 16px;
 }
 /* Link Styles */
 
@@ -23,7 +24,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.navbar {
   width: 100%;
   background: #0a1a2f;
   min-height: 30px;
@@ -62,7 +63,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url("images/rsz_background-img.jpg") no-repeat top center;
+  background: url("images/new_background-img.jpg") no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -75,11 +76,12 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 2px solid #122340;
   transition: all 0.5s;
 }
+
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) rotate(3deg);
 }
 
 .tag {
@@ -90,15 +92,17 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 }
+
 .location {
   background-color: #0a1a2f;
   color: #ccd6f6;
 }
 
 .card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
+  margin: 20px;
+  padding: 20px 40px 20px;
+  max-width: 350px;
+  min-width: 300px;
   text-align: left;
   background: #122340;
   border-bottom: 4px solid #ccc;
@@ -107,6 +111,7 @@ header .profile-image:hover {
 }
 
 .card_title {
+  text-align: center;
   color: #6ff8da;
 }
 .card:hover {
@@ -121,14 +126,20 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  background: #1b2e47;
+  color: #6ff8da;
   padding: 5px 10px;
   margin: 2px;
 }
 
+.skills li:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #0a1a2f;
 }
 
 footer {
@@ -162,6 +173,7 @@ a.social {
   background-size: 30px 30px;
   opacity: 0.4;
   transition: all 0.5s;
+  color: #6ff8da;
 }
 a.twitter {
   background-image: url(images/twitter.svg);

@@ -8,7 +8,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  color: #222;
+  color: #ccd6f6;
   background: #0a1a2f;
 }
 /* Link Styles */
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #0a1a2f;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,21 +43,26 @@ a:hover {
 .nav .name {
   display: block;
   margin-right: auto;
-  color: white;
+  color: #ccd6f6;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
   transition: all 0.5s;
+  color: #ccd6f6;
 }
 .nav a:hover {
-  color: white;
+  color: #6ff8da;
+}
+
+.nav .name:hover {
+  color: #6ff8da;
 }
 
 header {
   text-align: center;
-  background: url("images/portland.jpg") no-repeat top center;
+  background: url("images/rsz_background-img.jpg") no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -76,6 +81,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
   background-color: #ccd6f6;
   color: black;
@@ -85,21 +91,26 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #0a1a2f;
+  color: #ccd6f6;
 }
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: #122340;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all 0.5s;
 }
+
+.card_title {
+  color: #6ff8da;
+}
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #6ff8da;
 }
 
 ul.skills {
@@ -129,6 +140,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: 0.75em;
+  color: #6ff8da;
 }
 
 footer ul {

@@ -32,10 +32,11 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
+  font-weight: 400;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -101,7 +102,7 @@ header .profile-image:hover {
 }
 
 .card {
-  margin: 20px;
+  margin: 20px auto;
   padding: 20px 20px 20px;
   max-width: 350px;
   text-align: left;
@@ -200,7 +201,7 @@ a.social:hover {
 }
 
 /* Styles for larger screens */
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 1020px) {
   .flex {
     display: -ms-flexbox; /* TWEENER - IE 10 */
     display: flex;
@@ -208,6 +209,10 @@ a.social:hover {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     margin: 0 auto;
+  }
+
+  .card {
+    min-width: 260px;
   }
 
   header {

@@ -1,4 +1,3 @@
-/* Global Layout Set-up */
 * {
   box-sizing: border-box;
 }
@@ -9,7 +8,7 @@ body {
   text-align: center;
   font-family: "Noto Sans JP", sans-serif;
   color: #ccd6f6;
-  background: #0a1a2f;
+  background: black;
   font-size: 16px;
 }
 /* Link Styles */
@@ -22,11 +21,9 @@ a:hover {
   color: #6633ff;
 }
 
-/* Section Styles */
-
 .navbar {
   width: 100%;
-  background: #0a1a2f;
+  background: #3a3d11;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -44,7 +41,7 @@ a:hover {
 .nav .name {
   display: block;
   margin-right: auto;
-  color: #ccd6f6;
+  color: #f3f3f3;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -63,11 +60,12 @@ a:hover {
 
 header {
   text-align: center;
-  background: url("images/new_background-img.jpg") no-repeat top center;
+  background: url("images/arcade.jpg") no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
@@ -105,7 +103,7 @@ header .profile-image:hover {
   padding: 20px 20px 20px;
   max-width: 350px;
   text-align: left;
-  background: #122340;
+  background: #6f7433;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all 0.5s;

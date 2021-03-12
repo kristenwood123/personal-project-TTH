@@ -9,7 +9,7 @@ const games = [
   },
   {
     id: 2,
-    name: "Pacman",
+    title: "Pacman",
     img:
       "./images/Pacman.jpg",
     text:
@@ -17,7 +17,7 @@ const games = [
   },
   {
     id: 3,
-    title: "Qbert",
+    title: "Q*bert",
     img:
       "./images/Qbert.jpg",
     text:

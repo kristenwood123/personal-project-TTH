@@ -28,7 +28,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: "Noto Sans JP", sans-serif;
-  color: white;
+  color: black;
   background: black;
   font-size: 16px;
 }
@@ -229,6 +229,7 @@ header .profile-image:hover {
 
 .card__interests {
   background-color: gray;
+  max-width: 60%;
 }
 
 .card__interests:hover {
@@ -246,6 +247,41 @@ ul.skills {
 
 .hobbies li {
   list-style-type: none;
+}
+
+.games__slider {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+
+.games__slider h4 {
+  font-size: 20px;
+}
+
+.games__slider p {
+  font-size: 14px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fas__game {
+  color: rgb(235, 235, 53);
+  cursor: pointer;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.img-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .fas {
